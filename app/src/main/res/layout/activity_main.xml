@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353434"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="-3dp"
+            android:gravity="center"
+            android:text="칵테일"
+            android:textColor="#FFA2A2"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:gravity="center"
+            android:text="이"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="알고싶다"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_marginTop="50px"
+        android:layout_width="1080px"
+        android:layout_height="580px"
+        android:layout_gravity="center"
+        android:background="@drawable/list_cocktail" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="칵테일 종류"-->
+<!--        android:textColor="#CCCCCC"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textStyle="bold" />-->
+
+    <ImageButton
+        android:id="@+id/recommand"
+        android:layout_marginTop="65px"
+        android:layout_width="1080px"
+        android:layout_height="660px"
+        android:layout_gravity="center"
+        android:background="@drawable/recommend_cocktail" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="칵테일 추천"-->
+<!--        android:textColor="#CCCCCC"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textStyle="bold" />-->
+
+</LinearLayout>
